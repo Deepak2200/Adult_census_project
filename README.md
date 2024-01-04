@@ -20,4 +20,22 @@ pip install -r requirements.txt
 
 '''
 
-### make as setup .py
+### make a setup .py
+
+### Now initialized git and also make a ".gitignore" file
+"""
+git init
+
+git add .
+
+git commit "first commit"
+
+git branch -M main
+
+git {enter your git link}
+
+git puch -u origin main
+
+
+"""
+### analysize the data based on statistics ,graphs ets.
