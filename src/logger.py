@@ -1,6 +1,7 @@
 import logging
 import os
 from datetime import datetime
+import sys
 
 
 # here we make our path in our current working directory
@@ -15,6 +16,6 @@ LOG_FILE_PATH=os.path.join(log_path,log_file)
 # log file formate by basicConfig
 logging.basicConfig(
     filename=LOG_FILE_PATH,
-    formate="[ %(asctime)s ] %(lineno)d %(name)s - %(lavelname)s - %(message)s",
-    lavel=logging.INFO,
+    format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
+    level=logging.INFO,
 )
