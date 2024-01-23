@@ -38,4 +38,9 @@ git puch -u origin main
 
 
 """
+
+### Need to do Data cleaning process
+
 ### analysize the data based on statistics ,graphs ets.
+ 
+### data 
