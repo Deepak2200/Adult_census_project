@@ -52,3 +52,11 @@ Best Model Found , Model Name : Support vector Machine , Accuracy Score : 0.8299
 
 ====================================================================================
 
+## AWS DEploymentg
+
+create ".ebextension" folder
+
+written:
+option_settings:
+  "aws:elasticbeanstalk:container:python":
+    WSGIPath : application:application
