@@ -44,3 +44,11 @@ git puch -u origin main
 ### analysize the data based on statistics ,graphs ets.
  
 ### data 
+
+{'LogisticRegression': 0.8263675476336816, 'Decision Tree': 0.7994263470600287, 'Random Forest': 0.8198115140340094, 'Support vector Machine': 0.8299528785085023, 'KNN': 0.8019872976849006}
+
+============================================================================================
+Best Model Found , Model Name : Support vector Machine , Accuracy Score : 0.8299528785085023
+
+====================================================================================
+

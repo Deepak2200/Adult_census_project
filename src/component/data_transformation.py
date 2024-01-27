@@ -28,7 +28,7 @@ class DataTransformation:
 
          #segregating cat and num columns
          categorical_cols=['workclass', 'education','occupation', 'race', 'sex',]
-         numerical_cols=['age', 'education-num', 'capital-gain',"capital-loss", 'hours-per-week',]
+         numerical_cols=['age', 'education_num', 'capital_gain',"capital_loss", 'hours_per_week',]
          
          
          logging.info('Pipeline Initiated')

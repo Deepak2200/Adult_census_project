@@ -32,6 +32,7 @@ class DataIngetion:
             logging.info("Dataset read as pandas DataFrame")
             #Removing white space from categorical columns mainly of -> '<=50K'and'>50k'
             df = space_remover(df)
+            
 
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path),exist_ok=True)
             df.to_csv(self.ingestion_config.raw_data_path,index=False)
@@ -56,11 +57,5 @@ class DataIngetion:
     
 
 
-# run check
-        
-if __name__=="__main__":
-    obj=DataIngetion()
-    train_data_path,test_data_path=obj.initiate_data_ingestion()
-    data_transformation=DataTransformation()
-    train_arr,test_arr,_=data_transformation.initiate_data_transformation(train_data_path,test_data_path)
+
         

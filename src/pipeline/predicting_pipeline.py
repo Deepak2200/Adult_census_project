@@ -47,13 +47,13 @@ class CustomData:
       self.age = age  
       self.workclass = workclass    
       self.education = education 
-      self.education_num = education-num         
+      self.education_num = education_num      
       self.occupation= occupation               
       self.race =race  
       self.sex = sex
-      self.capital_gain = capital-gain   
-      self.capital_loss = capital-loss 
-      self.hours_per_week = hours-per-week
+      self.capital_gain = capital_gain   
+      self.capital_loss = capital_loss 
+      self.hours_per_week = hours_per_week
 
    
    

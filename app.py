@@ -18,10 +18,10 @@ def predict_datapoint():
       age=float(request.form.get('age')),
       education_num=float(request.form.get('education_num')),
       capital_gain=float(request.form.get('capital_gain')),
+      capital_loss=float(request.form.get('capital_loss')),
       hours_per_week=float(request.form.get('hours_per_week')),
       workclass=request.form.get('workclass'),
       education=request.form.get('education'),
-      marital_status=request.form.get('marital_status'),
       occupation=request.form.get('occupation'),
       relationship=request.form.get('relationship'),
       race=request.form.get('race'),
@@ -40,7 +40,7 @@ def predict_datapoint():
       else:
          output='More then 50K'
 
-      return render_template('results.html',final_result=output)
+      return render_template('result.html',final_result=output)
    
 if __name__ == '__main__':
    app.run(host='0.0.0.0',debug=True)
