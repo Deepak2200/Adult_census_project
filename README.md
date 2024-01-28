@@ -42,8 +42,26 @@ git puch -u origin main
 ### Need to do Data cleaning process
 
 ### analysize the data based on statistics ,graphs ets.
+
+## we need to do some machine learing basic step 
+
+### data ingestion :- 
+In data ingestion we need to do data into train test split and some basic EDA
+
+### data TRansformation :-
+we need  to do all the eda process automatically and create a pipeline and transform that data.
+we also convert data into the vector form and create metrics
+
+### model train:-
+In model training we need to do the model training based on that data set
+
+## training pipeline:-
+training pipeline summarize the previous file into the project
+
+### predcition pipeline :-
+prediction pipeline is use for the prediction of the data
  
-### data 
+### model results:-
 
 {'LogisticRegression': 0.8263675476336816, 'Decision Tree': 0.7994263470600287, 'Random Forest': 0.8198115140340094, 'Support vector Machine': 0.8299528785085023, 'KNN': 0.8019872976849006}
 
@@ -52,11 +70,20 @@ Best Model Found , Model Name : Support vector Machine , Accuracy Score : 0.8299
 
 ====================================================================================
 
-## AWS DEploymentg
+### tamplate :-
+we needs to create form.html , index.html,  result.html
 
-create ".ebextension" folder
+
+## AWS Deployment 
+
+create ".ebextension" folder  and make "python.config" file for the AWS deployment 
 
 written:
 option_settings:
   "aws:elasticbeanstalk:container:python":
     WSGIPath : application:application
+
+when want to do other deployment than we delete the aws folder
+
+
+
